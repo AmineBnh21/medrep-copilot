@@ -1,0 +1,22 @@
+# Environnement
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Données (re-générables avec les scripts d'ingestion)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Base vectorielle
+chroma/
+data/chroma/
+
+# Divers
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
